@@ -1,0 +1,87 @@
+/* Meu primeiro arquivo CSS*/
+
+/* TAGS */
+p{
+    color: rgb(20, 19, 19);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+body{
+    background-color: rgb(174, 180, 185); 
+    color: rgb(18, 19, 19);
+} 
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#f8a63b;
+    height: 100px;
+    padding: 18px;
+    font-size: 20px;    
+}
+
+footer{
+    clear: both;
+    background-color:#f8a63b;
+    text-shadow: 1px 1px 1px #ffeddb;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+h2{ 
+    color:rgb(8, 8, 8);
+    text-shadow: 1px 1px 1px #ffeddb;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+/*IDS */
+#principal{
+    background-image: url('cooktable.jpg');
+    clear: both;
+    background-size: 100%;
+    min-height:750px;
+    min-width: auto; 
+    padding: 5px;
+    }
+#logo{
+    float: left;
+}
+#menu{
+    margin-top:30px;
+    float: right;
+}
+#menu a{
+    padding: 80px 30px;
+    text-decoration: none;
+    color: rgba(0 , 0, 0, 0.25);
+    text-shadow: 0 0 1px #111111;
+}
+#menu a:hover{
+    background-color: rgba(83, 29, 7, 0.25);
+    color:#f8a63b
+}
+
+/* class */
+.container{
+    clear: both;
+    width:1000px;
+    margin: 0 auto;
+}
+.efeito{
+    background-color: rgba(0 , 0, 0, 0.25);
+    padding: 60px 60px;
+    width: auto;
+    height: 20px;
+}
+.direita{  
+    float: right;
+    width: 600px;
+}
+.esquerda{  
+    align-self: start;
+    float: left;
+    width: 400px;   
+}
